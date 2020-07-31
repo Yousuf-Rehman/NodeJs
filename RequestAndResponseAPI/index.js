@@ -21,7 +21,7 @@ server.on('request', (request, response) => {
     let incomingUrl = url.parse(request.url, true);
     console.log(incomingUrl.pathname);
 
-    let filename = path.join('.', incomingUrl.pathname);//'.' means current directory
+    let filename = path.join('.', 'images', incomingUrl.pathname);//'.' means current directory
     fs.exists(filename, (isExists) => {/*check if file exists*/
         if (!isExists) {
             return SendResponse(response, RESPONSE_CLIENT_ERROR,
