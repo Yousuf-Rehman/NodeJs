@@ -1,0 +1,22 @@
+{
+  "name": "requestandresponseapi",
+  "version": "1.0.0",
+  "description": "tbd",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yousuf-Rehman/NodeJs.git"
+  },
+  "dependencies": {
+    "mime": "latest"
+  },
+  "author": "yousuf rehman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yousuf-Rehman/NodeJs/issues"
+  },
+  "homepage": "https://github.com/Yousuf-Rehman/NodeJs#readme"
+}
