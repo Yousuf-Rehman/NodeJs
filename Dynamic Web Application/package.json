@@ -1,0 +1,31 @@
+{
+  "name": "dynamic-web-application",
+  "version": "1.0.0",
+  "description": "tbd",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yousuf-Rehman/NodeJs.git"
+  },
+  "keywords": [
+    "dynamic",
+    "web",
+    "application",
+    "express",
+    "js"
+  ],
+  "dependencies": {
+    "express": "*",
+    "body-parser": "*",
+    "morgan": "*"
+  },
+  "author": "Yousuf Rehman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yousuf-Rehman/NodeJs/issues"
+  },
+  "homepage": "https://github.com/Yousuf-Rehman/NodeJs#readme"
+}

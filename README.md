@@ -6,3 +6,11 @@
 ```js
 console.log('Welcome')
 ```
+
+```
+Applications here are:
+
+	- Node Linux Terminal
+	- Request And Response API
+	- Dynamic Web Application (ExpressJs Node Framework) **In progress**
+```

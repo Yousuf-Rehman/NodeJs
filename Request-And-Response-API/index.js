@@ -28,7 +28,7 @@ server.on('request', (request, response) => {
                 'text/plain', 'No resource found');
         }
 
-        fs.readFile(filename, 'binary', (error, file) => {
+        fs.readFile(filename, 'binary', (error, file) => {//async
             if (error) {
                 return SendResponse(response, RESPONSE_SERVER_ERROR,
                     'text/plain', 'Server Error');

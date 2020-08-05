@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Create Post</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style type="text/css">
+        body{
+            margin: 50px;
+        }
+        p{
+            margin: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="w3-container w3-orange">
+        <h2>Create POST</h2>
+    </div>
+
+    <form class="w3-container" method="POST" action="/post">
+        <p>
+            <label>Title</label>
+            <input class="w3-input" type="text" placeholder="Post Title" name="title">
+        </p>
+
+        <p>
+            <label>Author Name</label>
+            <input class="w3-input" type="text" name="author" placeholder="Author Name">
+        </p>
+
+        <p>
+            <label>Message</label>
+            <textarea class="w3-input" name="body" placeholder="post"></textarea>
+        </p>
+
+        <button class ="w3-btn w3-blue" type="submit">POST IT</button>
+    </form>
+</body>
+
+</html>
